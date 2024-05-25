@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
+  
+
+.body-index{
+    background: linear-gradient(205deg, #006769, #9DDE8B);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    padding-top: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 75px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+}
+
+nav{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+#btn-logar{
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color: #9DDE8B;
+    border-radius: 10px;
+    border: none;
+}
+#btn-logar:hover{
+    background-color: #006769;
+}
+
+.nav-bar {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px; 
+    box-shadow: 5px 5px 5px black;
+    margin-top: 25px;
+    margin-left:11%;
+ 
+}
+
+li{
+    list-style-type: none;
+    list-style: none;
+
+}
+
+nav a{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+nav a:hover{
+    color: #40A578;
+}
+
+#login{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background-color: #E6FF94;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+#login input{
+    display: block;
+    border: 1px solid #cccccc; 
+    height:20px; 
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+#txt-login{
+    font-family: "Poetsen One", sans-serif;
+    padding-left: 10px;
+}
+
+div.galeria{
+    background-color: transparent;
+    width: 290px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+    color: black;
+}
+div.galeria img{
+    max-width: 90%;
+    height: auto;
+}
+div.galeria p{
+    text-align: center;
+}
+div.galeria ol{
+    font-weight: bold;
+}
+div.galeria:hover{
+    background-color:#9a05c7;
+    color: white;
+}
+div.galeria > h2{
+    text-align: center;
+    background-color: white;
+    color: #006769;
+    font-size: clamp(1.1rem, 1.8vw, 2.8rem);
+}
+img.inicio {
+    max-width: 100%;
+    height: auto;
+}
+.conteiner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.responsive-iframe {
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#titulo2{
+    text-decoration: none;
+    font-family: "Bungee Spice", sans-serif;
+
+}
+
+#txt-sobre{
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+#promos{
+    margin-left: 17%;
+}
+
+.galeria>h2{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
